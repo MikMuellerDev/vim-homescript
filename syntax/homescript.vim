@@ -25,7 +25,6 @@ syntax match homescriptStringAlt start=/'/ end=/'/ contained containedin=homescr
 highlight default link homescriptTodos Todo
 
 highlight default link homescriptString String
-highlight default link homescriptStringAlt String
 highlight default link homescriptNumber Number
 highlight default link homescriptBoolean Boolean 
 
