@@ -4,10 +4,15 @@ syntax keyword homescriptTodos TODO
 
 " Match language specific keywords
 syntax keyword homescriptKeywords
-      \ if
-      \ else
-      \ on
-      \ off
+    \ if
+    \ else
+
+" Match booleans
+syntax keyword homescriptBoolean
+    \ true
+    \ false
+    \ on
+    \ off
 
 " Match all homescript number types
 syntax match homescriptNumber "\v<\d+>"
@@ -20,5 +25,6 @@ highlight default link homescriptTodos Todo
 
 highlight default link homescriptString String
 highlight default link homescriptNumber Number
+highlight default link homescriptBoolean Boolean 
 
 highlight default link homescriptKeywords Keyword
