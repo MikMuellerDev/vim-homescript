@@ -23,7 +23,10 @@ syntax region homescriptString start=/"/ end=/"/ oneline contains=homescriptStri
 syntax region homescriptStringAlt start=/'/ end=/'/ contained containedin=homescriptString
 
 highlight default link homescriptTodos Todo
+
 highlight default link homescriptString String
+highlight default link homescriptStringAlt String
+
 highlight default link homescriptNumber Number
 highlight default link homescriptBoolean Boolean 
 
