@@ -7,6 +7,16 @@ syntax keyword homescriptKeywords
     \ if
     \ else
 
+
+" Match language specific functions
+syntax keyword homescriptFunctions
+    \ switch
+    \ switchOn
+    \ addUser
+    \ delUser
+    \ addPerm
+    \ delPerm
+
 " Match booleans
 syntax keyword homescriptBoolean
     \ true
