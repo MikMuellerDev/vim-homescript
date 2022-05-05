@@ -1,2 +1,2 @@
 " ftdetect/homescript.vim
-autocmd BufNewFile,BufRead *.hms setfiletype homescript
+autocmd BufNewFile,BufRead *.hms set filetype=homescript
