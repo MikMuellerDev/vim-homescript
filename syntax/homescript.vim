@@ -19,7 +19,8 @@ syntax match homescriptNumber "\v<\d+>"
 syntax match homescriptNumber "\v<\d+\.\d+>"
 
 " Match strings
-syntax region homescriptString start=/"/ skip=/\\"/ end=/"/ oneline
+syntax region homescriptString start=/"/ skip=/\\"/ end=/"/ oneline contains=homescriptStringAlt
+syntax region homescriptStringAlt start=/'/ skip=/\\'/ end=/'/ containedin=homescriptString
 
 highlight default link homescriptTodos Todo
 
