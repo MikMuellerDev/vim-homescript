@@ -20,7 +20,7 @@ syntax match homescriptNumber "\v<\d+\.\d+>"
 
 " Match strings
 syntax region homescriptString start=/"/ end=/"/ oneline contains=homescriptStringAlt
-syntax region homescriptStringAlt start=/'/ end=/'/ contained containedin=homescriptString
+syntax match homescriptStringAlt start=/'/ end=/'/ contained containedin=homescriptString
 
 highlight default link homescriptTodos Todo
 
